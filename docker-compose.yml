@@ -1,0 +1,7 @@
+services:
+  jekyll-contrast:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
+    ports:
+      - '4000:4000'
