@@ -16,6 +16,13 @@ body
     background: $dark
     color: $light
 
+@media (max-width: 600px)
+  table
+    display: block
+    width: 100%
+    max-width: 100%
+    box-sizing: border-box
+
 h1, h2, h3, h4, h5, h6
   font-weight: $heading-weight
 
@@ -65,12 +72,14 @@ img
   height: auto
 
 table
-  display: table
+  width: 100%
   max-width: 100%
-  overflow-y: scroll
   border-spacing: 1px
   border-radius: 2px
-  box-shadow: 0 0 0 1px reduce(12) inset
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.12) inset
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  text-align: center
 
 th, td
   padding: .5em 1em
