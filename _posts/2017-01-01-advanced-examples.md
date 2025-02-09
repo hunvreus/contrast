@@ -1,8 +1,13 @@
 ---
-title:  "Advanced examples"
+title: "Advanced examples"
 mathjax: true
 layout: post
 categories: media
+excerpt: |
+  ![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
+
+  You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`.
+
 ---
 
 ![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
