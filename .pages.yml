@@ -13,3 +13,4 @@ content:
       - { name: mathjax, label: MathJax, type: boolean, default: false }
       - { name: excerpt, label: Excerpt, type: rich-text }
       - { name: body, label: Body, type: rich-text }
+# dsg
